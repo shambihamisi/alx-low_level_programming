@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strlen - function name
  * @s: function parameter
@@ -7,10 +8,11 @@
 
 int _strlen(char *s)
 {
-int i;
-int count = o;
+int len = 0;
 
-for (i = 0; s[i] != '\0'; i++)
-	count++;
-return (count);
+while (s[len] != '\0')
+	{
+		len++;
+	}
+return (len);
 }
